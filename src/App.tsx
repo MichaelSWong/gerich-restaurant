@@ -1,9 +1,30 @@
 import React from 'react';
+import {
+  AboutUs,
+  Chef,
+  FindUs,
+  Footer,
+  Gallery,
+  Header,
+  Intro,
+  Laurels,
+  SpecialMenu,
+} from './container';
+import { Navbar } from './components';
 
 const App = () => {
   return (
     <div>
-      App <h1>Hello World</h1>
+      <Navbar />
+      <Header />
+      <AboutUs />
+      <SpecialMenu />
+      <Chef />
+      <Intro />
+      <Laurels />
+      <Gallery />
+      <FindUs />
+      <Footer />
     </div>
   );
 };
